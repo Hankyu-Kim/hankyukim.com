@@ -2,7 +2,7 @@
 title: "Jetpack Minimal Install"
 description: "--------------------------------------------------"
 publishDate: "2 Jun 2024"
-tags: ["jetson", "jetpack", "NVIDIA"]
+tags: ["Jetson"]
 ---
 
 ## Jetpack Minimal Install

@@ -2,7 +2,7 @@
 title: "git submodule clone"
 publishDate: "09 Jun 2024"
 description: "--------------------------------------------------"
-tags: ["Git", "submodules", "clone", "recursive"]
+tags: ["Git"]
 ---
 
 Let's clone the project with submodules!

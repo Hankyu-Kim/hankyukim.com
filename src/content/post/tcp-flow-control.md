@@ -2,7 +2,7 @@
 title: "TCP Flow Control"
 publishDate: "12 Jun 2024"
 description: "--------------------------------------------------"
-tags: ["TCP", "flow-control"]
+tags: ["Network"]
 ---
 
 Flow control is a method that clients (RX) use to fix ‘overflow’ issues caused by the difference in data processing times between the server (TX) and the client (RX).

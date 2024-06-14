@@ -2,7 +2,7 @@
 title: "Multicast VS Broadcast"
 publishDate: "13 Jun 2024"
 description: "--------------------------------------------------"
-tags: ["multicast", "broadcast"]
+tags: ["Network"]
 ---
 
 ### Multicast

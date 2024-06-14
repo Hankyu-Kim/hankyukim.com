@@ -2,7 +2,7 @@
 title: "blocking VS non blocking"
 publishDate: "14 Jun 2024"
 description: "--------------------------------------------------"
-tags: ["Non-Blocking", "Blocking"]
+tags: ["Network"]
 ---
 
 ### Blocking

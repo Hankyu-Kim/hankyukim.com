@@ -2,7 +2,7 @@
 title: "OSI 7 layers"
 publishDate: "06 Jun 2024"
 description: "--------------------------------------------------"
-tags: ["network", "protocols", "software development"]
+tags: ["Network"]
 ---
 
 \[7\] Application Layer data unit : message protocol : HTTP, SMTP, FTP, SIP, etc. As the final destination, application layer is commonly used for the multiple applications to communicate with each other. It is closest to the users, often interacting directly through web browsers or applications. Various protocol exists at this layer, and new ones can be easily added.

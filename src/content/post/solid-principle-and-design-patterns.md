@@ -2,7 +2,7 @@
 title: "SOLID Principle and Design Patterns"
 publishDate: "17 Jun 2024"
 description: "--------------------------------------------------"
-tags: ["solid", "SRP", "OCP", "LSP", "ISP", "DIP"]
+tags: ["Software"]
 ---
 
 SOLID abbreviation represents :

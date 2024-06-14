@@ -2,7 +2,7 @@
 title: "Data Encapsulation"
 publishDate: "08 Jun 2024"
 description: "--------------------------------------------------"
-tags: ["data", "segment", "packet", "frame"]
+tags: ["Network"]
 ---
 
 * Segments: Transport layer (TCP/UDP) = transport header + data (from upper layer) ​

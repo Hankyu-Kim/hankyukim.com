@@ -2,7 +2,7 @@
 title: "The Importance of Network Performance: Overhead and Latency"
 publishDate: "15 Jun 2024"
 description: "--------------------------------------------------"
-tags: ["overhead"]
+tags: ["Network"]
 ---
 
 Network overhead refers to the extra data required for transmission and processing. This additional data can slow down the rate at which information is transferred across the network.

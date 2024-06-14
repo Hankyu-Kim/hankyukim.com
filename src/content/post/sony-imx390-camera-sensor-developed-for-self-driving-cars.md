@@ -2,7 +2,7 @@
 title: "Sony IMX390 camera sensor developed for self-driving cars"
 description: "--------------------------------------------------"
 publishDate: "3 Jun 2024"
-tags: ["autonomous driving", "IMX390", "sony", "self driving"]
+tags: ["Autonomous driving"]
 ---
 
 ## Sony IMX390 camera sensor developed for self-driving cars

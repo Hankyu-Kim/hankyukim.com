@@ -2,7 +2,7 @@
 title: "Combine datasets"
 description: "--------------------------------------------------"
 publishDate: "1 Jun 2024"
-tags: ["deep learning", "object detection", "YOLO"]
+tags: ["AI"]
 ---
 
 I merged two datasets: a custom dataset with 2,418 images and the COCO128 dataset with 128 images.

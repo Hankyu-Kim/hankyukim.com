@@ -2,7 +2,7 @@
 title: "QoS Parameter from DDS"
 publishDate: "11 Jun 2024"
 description: "--------------------------------------------------"
-tags: ["DDS", "QoS", "ROS2"]
+tags: ["Network"]
 ---
 
 1. History : Select length of que, FIFO/LIFO.

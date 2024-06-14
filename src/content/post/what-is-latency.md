@@ -2,7 +2,7 @@
 title: "What is Latency?"
 publishDate: "16 Jun 2024"
 description: "--------------------------------------------------"
-tags: ["latency", "network"]
+tags: ["Network"]
 ---
 
 Latency is the time it takes for data to travel from the source to the destination. It encompasses various delays encountered during data transmission.
