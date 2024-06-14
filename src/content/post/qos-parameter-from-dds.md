@@ -1,35 +1,37 @@
 ---
-title: "return VS yield"
-publishDate: "10 Jun 2024"
+title: "QoS Parameter from DDS"
+publishDate: "11 Jun 2024"
 description: "--------------------------------------------------"
-tags: ["return", "yield", "C#"]
+tags: ["DDS", "QoS", "ROS2"]
 ---
 
-Most of programming language, functions normally hands over the value using ***return*** keyword. But using ***yield*** keyword can bring the value very different way.
+1. History : Select length of que, FIFO/LIFO.
+    
+2. Reliability : Using ACK/NACK signal for reliability.
+    
+3. Durability : Remove history of sent data.
+    
+4. Deadline : Get noticed from the latency delay.
+    
+5. TimeBasedFilter : Limit 'subscribe' for once in a certain time.
+    
+6. DestinaitonOrder :
+    
 
-The first noticeable difference is that when using the ***return*** keyword, the result value is provided only once, and the ***yield*** keyword provides the result value divided by multiple times.
+* SOURCE\_TIMESTAMP : Sort data based on data published time.
+    
+* RECEPTION\_TIMESTAMP : Sort data based on data subscribed time.
+    
 
-<br>
+7. Lifespan : Set the data lifespan.
+    
+8. Liveliness : Using AUTO/MANUAL signal to manage liveliness.
+    
+9. Partition : Categorize by partition name (only communicat with same group's DDS object).
+    
+10. Ownership :
+    
 
-```csharp
-using System;
-using System.Collections.Generic;
-
-class Program
-{
-static IEnumerable GetNumber()
-{
-yield return 10;
-yield return 20;
-yield return 30;
-}
-
-static void Main(string[] args)
-{
-foreach (int num in GetNumber())
-{
-Console.WriteLine(num);
-}
-}
-}
-```
+* SHARED : Share the data simultaneously.
+    
+* EXCLUSIVE : Receive only data based on priority
