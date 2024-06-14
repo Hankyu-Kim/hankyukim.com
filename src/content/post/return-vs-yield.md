@@ -2,7 +2,7 @@
 title: "return VS yield"
 publishDate: "10 Jun 2024"
 description: "--------------------------------------------------"
-tags: ["return", "yield", "C#"]
+tags: ["return", "yield"]
 ---
 
 Most of programming language, functions normally hands over the value using ***return*** keyword. But using ***yield*** keyword can bring the value very different way.
