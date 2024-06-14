@@ -1,5 +1,5 @@
 ---
-title: "What is Latency?"
+title: "Sync VS Async?"
 publishDate: "18 Jun 2024"
 description: "--------------------------------------------------"
 tags: ["synchronous", "asynchronous", "Blocking", "Non-Blocking"]
