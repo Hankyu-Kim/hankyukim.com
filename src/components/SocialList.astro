@@ -17,11 +17,23 @@ const socialLinks: {
 		link: "https://github.com/Hankyu-Kim",
 		name: "mdi:github",
 	},
+
+	{
+		friendlyName: "Linkedin",
+		link: "https://www.linkedin.com/in/hankyu-kim-hardworker/",
+		name: "mdi:linkedin",
+	},
+
+	{
+		friendlyName: "Instagram",
+		link: "https://www.instagram.com/hankyu.kim/",
+		name: "mdi:instagram",
+	},
 ];
 ---
 
 <div class="flex flex-wrap items-end gap-x-2">
-	<p>𝘏𝘢𝘯𝘬𝘺𝘶 𝘒𝘪𝘮</p>
+	<p>Find me on</p>
 	<ul class="flex flex-1 items-center gap-x-2 sm:flex-initial">
 		{
 			socialLinks.map(({ friendlyName, isWebmention, link, name }) => (
