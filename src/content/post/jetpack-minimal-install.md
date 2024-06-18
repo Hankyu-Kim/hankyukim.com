@@ -3,6 +3,7 @@ title: "Jetpack Minimal Install"
 description: "--------------------------------------------------"
 publishDate: "2 Jun 2024"
 tags: ["Jetson"]
+draft: true
 ---
 
 ## Jetpack Minimal Install

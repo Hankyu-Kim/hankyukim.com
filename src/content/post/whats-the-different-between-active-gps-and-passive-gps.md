@@ -3,6 +3,7 @@ title: "What's the different between active GPS and passive GPS?"
 publishDate: "5 Jun 2024"
 description: "--------------------------------------------------"
 tags: ["Autonomous driving"]
+draft: true
 ---
 
 𝐀𝐜𝐭𝐢𝐯𝐞 𝐆𝐏𝐒 🔊
