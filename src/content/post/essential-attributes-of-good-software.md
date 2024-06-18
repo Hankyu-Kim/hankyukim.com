@@ -3,6 +3,7 @@ title: "Essential attributes of good software"
 description: "--------------------------------------------------"
 publishDate: "4 Jun 2024"
 tags: ["Software"]
+draft: true
 ---
 
 #### Maintainability
