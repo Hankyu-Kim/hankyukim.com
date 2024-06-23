@@ -1,5 +1,5 @@
 ---
-title: "Sync VS Async?"
+title: "Sync VS Async"
 publishDate: "18 Jun 2024"
 description: "--------------------------------------------------"
 tags: ["Network"]

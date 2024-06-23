@@ -1,5 +1,5 @@
 ---
-title: "Checksum VS CRC?"
+title: "Checksum VS CRC"
 publishDate: "21 Jun 2024"
 description: "--------------------------------------------------"
 tags: ["Network"]
