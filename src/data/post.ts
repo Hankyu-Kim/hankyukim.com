@@ -8,6 +8,15 @@ export async function getAllPosts() {
 	});
 }
 
+export async function getAllAutonomousDrivings() {
+    return await getCollection("post", ({ data }) => {
+        const isProd = import.meta.env.PROD ? !data.draft : true;
+        const hasAutonomousDrivingTag = data.tags && data.tags.includes('autonomous driving');
+        return isProd && hasAutonomousDrivingTag;
+    });
+}
+
+
 /** returns the date of the post based on option in siteConfig.sortPostsByUpdatedDate */
 export function getPostSortDate(post: CollectionEntry<"post">) {
 	return siteConfig.sortPostsByUpdatedDate && post.data.updatedDate !== undefined

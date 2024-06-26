@@ -32,7 +32,7 @@ export const siteConfig: SiteConfig = {
 // Used to generate links in both the Header & Footer.
 export const menuLinks: { path: string; title: string }[] = [
 	{
-		path: "/",
+		path: "/tags/autonomous driving",
 		title: "Self Driving",
 	},
 	{
@@ -40,7 +40,7 @@ export const menuLinks: { path: string; title: string }[] = [
 		title: "ROS",
 	},
 	{
-		path: "/posts/",
+		path: "/tags/network",
 		title: "Network",
 	},
 	{
