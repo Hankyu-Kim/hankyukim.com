@@ -8,11 +8,11 @@ export async function getAllPosts() {
 	});
 }
 
-export async function getAllAutonomousDrivings() {
+export async function getCars() {
     return await getCollection("post", ({ data }) => {
         const isProd = import.meta.env.PROD ? !data.draft : true;
-        const hasAutonomousDrivingTag = data.tags && data.tags.includes('autonomous driving');
-        return isProd && hasAutonomousDrivingTag;
+        const hasCarTag = data.tags && data.tags.includes('autonomous driving car');
+        return isProd && hasCarTag;
     });
 }
 
